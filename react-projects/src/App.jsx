@@ -1,11 +1,11 @@
 import './App.css'
-import Accordian from './Components/StarRatingApp'
+import StarRatingApp from './Components/StarRatingApp'
 
 
 function App() {
   return(
     <div>
-      <Accordian></Accordian>
+      <StarRatingApp noOfStars={10}></StarRatingApp>
   </div>
   ) 
 
